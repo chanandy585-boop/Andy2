@@ -1,5 +1,11 @@
 const CACHE = 'padel-score-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json'];
+const ASSETS = [
+  '/Andy2/',
+  '/Andy2/index.html',
+  '/Andy2/manifest.json',
+  '/Andy2/icons/icon-192x192.png',
+  '/Andy2/icons/icon-512x512.png'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
