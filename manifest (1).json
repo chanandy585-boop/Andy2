@@ -1,0 +1,19 @@
+{
+  "background_color": "#ffffff",
+  "description": "Application de score pour le padel – suivi en temps réel des sets, jeux et points.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Padel Score",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Padel Score",
+  "start_url": "/",
+  "theme_color": "#0b1120",
+  "lang": "fr",
+  "categories": [
+    "games"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 3
+  }
+}
